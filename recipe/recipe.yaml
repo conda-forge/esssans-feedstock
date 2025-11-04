@@ -26,7 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - dask-core
     - python-graphviz
-    - essreduce >=25.02.4
+    - essreduce >=25.11.0
     - numpy
     - pandas
     - plopp
