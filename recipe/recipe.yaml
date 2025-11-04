@@ -1,7 +1,7 @@
 context:
   name: esssans
   version: "25.11.0"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -29,9 +29,9 @@ requirements:
     - essreduce >=25.11.0
     - numpy
     - pandas
-    - plopp
+    - plopp >=25.03.0
     - pythreejs
-    - sciline >=25.04.1
+    - sciline >=25.08.0
     - scipp >=24.09.1
     - scippneutron >=25.02.1
     - scippnexus >=23.12.1
