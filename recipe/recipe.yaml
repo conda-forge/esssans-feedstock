@@ -1,6 +1,6 @@
 context:
   name: esssans
-  version: "25.11.0"
+  version: "25.12.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/esssans-${{ version }}.tar.gz
-  sha256: b33a5743f653c55adc814577676d433fca252cdad4bb77c7a4f6e380bd301cb7
+  sha256: d4c2a74f8a56d004230b1eccda2e97b72d70b8e38a49153071285632de19180d
 
 build:
   number: 0
