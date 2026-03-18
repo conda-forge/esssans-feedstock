@@ -1,6 +1,6 @@
 context:
   name: esssans
-  version: "26.2.1"
+  version: "26.3.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/esssans-${{ version }}.tar.gz
-  sha256: db0208ceb93630bc47185545385b90f2eede1b230b67c23d85dfe241a9e0a822
+  sha256: b15775386ec9bd961a90450ac04816e0ab552fc28dac11a52b47cce64d03ff5a
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - dask-core
     - python-graphviz
-    - essreduce >=26.01.0
+    - essreduce >=26.3.1
     - numpy >=1.26.4
     - pandas >=2.1.2
     - plopp >=25.10.0
