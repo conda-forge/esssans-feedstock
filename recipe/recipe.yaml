@@ -48,7 +48,7 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   repository: https://github.com/scipp/ess/tree/main/packages/esssans
-  homepage: https://scipp.github.io/esssans/
+  homepage: https://scipp.github.io/ess/sans/
 
 extra:
   recipe-maintainers:
