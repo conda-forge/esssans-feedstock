@@ -26,7 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - dask-core
     - python-graphviz
-    - essreduce >=26.4.0
+    - essreduce >=26.6.0
     - numpy >=1.26.4
     - pandas >=2.1.2
     - plopp >=25.10.0
@@ -47,7 +47,7 @@ about:
   summary: SANS data reduction for the European Spallation Source
   license: BSD-3-Clause
   license_file: LICENSE
-  repository: https://github.com/scipp/esssans
+  repository: https://github.com/scipp/ess/tree/main/packages/esssans
   homepage: https://scipp.github.io/esssans/
 
 extra:
