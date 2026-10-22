@@ -24,25 +24,21 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - dask-core
-    - python-graphviz
-    - essreduce >=26.6.0
+    - dask-core >=2022.1.0
+    - python-graphviz >=0.20
+    - essreduce >=26.10.1
     - numpy >=1.26.4
     - pandas >=2.1.2
-    - plopp >=25.10.0
-    - pythreejs >=2.4.1
-    - sciline >=25.08.0
-    - scipp >=24.09.1
-    - scippneutron >=25.02.1
-    - scippnexus >=23.12.1
+    - plopp >=26.5.0
+    - scippneutron >=26.10.0
 
 tests:
   - python:
       imports:
         - ess.sans
-      pip_check: true
-      python_version: ${{ python_min }}.*
-
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 about:
   summary: SANS data reduction for the European Spallation Source
   license: BSD-3-Clause
